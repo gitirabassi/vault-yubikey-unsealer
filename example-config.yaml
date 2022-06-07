@@ -1,0 +1,10 @@
+recipients:
+- age1yubikey1xxxxxxxxxxxxxxx
+- age1yubikey1xxxxxxxxxxxxxxxx
+identity: AGE-PLUGIN-YUBIKEY-xxxxxxxxxxxxxxxxx
+vault_address: http://127.0.0.1:8200
+unseal_keys_path: /var/vault/vault-recovery.age
+root_token_path:  /var/vault/root-token.age
+init_key_shares: 5
+init_key_threshold: 3
+binaries_path: /usr/bin
